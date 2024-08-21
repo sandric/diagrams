@@ -4,16 +4,16 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Tlp35jNGQlbKkEbhyPow-2" value="RADIOD" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Tlp35jNGQlbKkEbhyPow-2" value="RADIOD (C)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="27.5" y="150" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Tlp35jNGQlbKkEbhyPow-3" value="&lt;div&gt;PCMCAT&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Tlp35jNGQlbKkEbhyPow-3" value="&lt;div&gt;PCMCAT&lt;/div&gt;&amp;nbsp;(C)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="167.5" y="150" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Tlp35jNGQlbKkEbhyPow-4" value="&lt;div&gt;DSD-FME&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Tlp35jNGQlbKkEbhyPow-4" value="&lt;div&gt;DSD-FME&lt;/div&gt;&lt;div&gt;&amp;nbsp;(C)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="457.5" y="150" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Tlp35jNGQlbKkEbhyPow-5" value="CONVERTER" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Tlp35jNGQlbKkEbhyPow-5" value="CONVERTER (Go)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="597.5" y="150" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Tlp35jNGQlbKkEbhyPow-6" value="&lt;div&gt;COMMINTIFY SENDER&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -28,7 +28,7 @@
             <mxPoint x="487.5" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Tlp35jNGQlbKkEbhyPow-10" value="&lt;div&gt;ANALYTIC PARSER&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Tlp35jNGQlbKkEbhyPow-10" value="&lt;div&gt;ANALYTIC PARSER&lt;/div&gt;&amp;nbsp;(Go)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="597.5" y="250" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Tlp35jNGQlbKkEbhyPow-11" value="&lt;div&gt;ANALYTICS&lt;br&gt;SQLITE DB&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -124,25 +124,25 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Tlp35jNGQlbKkEbhyPow-41" value="&lt;div&gt;MAIN PROCESS&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+        <mxCell id="Tlp35jNGQlbKkEbhyPow-41" value="&lt;div&gt;MAIN PROCESS&lt;/div&gt;&amp;nbsp;(Go)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="380" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="Tlp35jNGQlbKkEbhyPow-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tlp35jNGQlbKkEbhyPow-46" target="Tlp35jNGQlbKkEbhyPow-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Tlp35jNGQlbKkEbhyPow-46" value="&lt;div&gt;MAIN PROCESS RPC FRONTEND&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp; - add(rm)FrequencyFM&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp; - add(rm)FrequencyDMR&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp; - setCenterFreq&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp; - setBandwidth&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp; ...&lt;br&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+        <mxCell id="Tlp35jNGQlbKkEbhyPow-46" value="&lt;div&gt;MAIN PROCESS RPC FRONTEND (Go)&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp; - add(rm)FrequencyFM&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp; - add(rm)FrequencyDMR&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp; - setCenterFreq&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp; - setBandwidth&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp; ...&lt;br&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="375" width="187.5" height="110" as="geometry" />
         </mxCell>
         <mxCell id="Tlp35jNGQlbKkEbhyPow-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tlp35jNGQlbKkEbhyPow-49" target="Tlp35jNGQlbKkEbhyPow-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Tlp35jNGQlbKkEbhyPow-49" value="LOCAL FILE WEB SERVER" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+        <mxCell id="Tlp35jNGQlbKkEbhyPow-49" value="LOCAL FILE WEB SERVER (Go)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="900" y="150" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Tlp35jNGQlbKkEbhyPow-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tlp35jNGQlbKkEbhyPow-50" target="Tlp35jNGQlbKkEbhyPow-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Tlp35jNGQlbKkEbhyPow-50" value="&lt;div&gt;ANALYTICS DB FRONTEND&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+        <mxCell id="Tlp35jNGQlbKkEbhyPow-50" value="&lt;div&gt;ANALYTICS DB FRONTEND&lt;/div&gt;&amp;nbsp;(Go)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="900" y="250" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Tlp35jNGQlbKkEbhyPow-54" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
@@ -160,7 +160,7 @@
         <mxCell id="Tlp35jNGQlbKkEbhyPow-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="Tlp35jNGQlbKkEbhyPow-58" target="Tlp35jNGQlbKkEbhyPow-61">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Tlp35jNGQlbKkEbhyPow-58" value="MAIN RPC SERVER&lt;br&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp; - setFrequency(freq, mod)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp; - ws socket every 0.5s tick&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp; to get groupped&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp; ClusteredDirections&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp; - ws socket every 20s tick&lt;div align=&quot;left&quot;&gt;&amp;nbsp; to get groupped&lt;/div&gt;&amp;nbsp; ClusteredDirections history&lt;br&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+        <mxCell id="Tlp35jNGQlbKkEbhyPow-58" value="MAIN RPC SERVER (Go)&lt;br&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp; - setFrequency(freq, mod)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp; - ws socket every 0.5s tick&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp; to get groupped&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp; ClusteredDirections&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp; - ws socket every 20s tick&lt;div align=&quot;left&quot;&gt;&amp;nbsp; to get groupped&lt;/div&gt;&amp;nbsp; ClusteredDirections history&lt;br&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="560" width="210" height="140" as="geometry" />
         </mxCell>
         <mxCell id="Tlp35jNGQlbKkEbhyPow-60" value="&lt;div&gt;rec_uniden directory&lt;/div&gt;&lt;div&gt;plastun reads in&lt;/div&gt;&lt;div&gt;Uniden mode&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -208,7 +208,7 @@
         <mxCell id="Tlp35jNGQlbKkEbhyPow-70" value="Detection SQLite db" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="720" y="890" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Tlp35jNGQlbKkEbhyPow-71" value="&lt;div&gt;Frontend Server to serve static map tiles and detection history&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Tlp35jNGQlbKkEbhyPow-71" value="&lt;div&gt;Frontend Server to serve static map tiles and detection history (Go)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="720" y="970" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Tlp35jNGQlbKkEbhyPow-76" value="ZMQ Event" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
