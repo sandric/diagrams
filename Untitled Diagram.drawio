@@ -259,6 +259,24 @@
         <mxCell id="Tlp35jNGQlbKkEbhyPow-93" value="FILTERS (Button)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="1580" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="Tlp35jNGQlbKkEbhyPow-94" value="Realtime" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1980" width="1070" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="Tlp35jNGQlbKkEbhyPow-95" value="&lt;div&gt;History waterfall drawn with Leaflet as 1-dimensional zoom map with 0-10 zoom levels map, tile is 200*200px, jpeg pictures are taken from &quot;Honchak&quot; Go web server, each line in jpeg is same 0.1s, grayscale 0-255 jpeg compressed to 85% (set in Hopchak format settings, could be png, but much more bandwidth).&lt;/div&gt;&lt;div&gt;Above filtering section is drawn,you can select time period, frequency diapasone of detected signals, min-max time of detected signal, modulation, etc.&lt;/div&gt;&lt;div&gt;Above leaflet map detected signal overlay is drawn, its dynamic - on click info about signal, mod, id, tgid, cc and key if exist is shown, and a player button to play audio, its a section above this block and below filtering section. Also on click - pelengs history to the right is shown, each second of detected signal - shows peleng data.&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="2060" width="440" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Tlp35jNGQlbKkEbhyPow-96" value="&lt;div&gt;History of pelengs, its a leaflet osm map with pelengs data taken from &quot;Pavuchok&quot;&lt;/div&gt;&lt;div&gt;data is an array of [{id, azimuth,power}] array taken each 0.5s, by moving current time in history waterfall - pelengs is redrawn, so you can see whole history of all pelengs plastun did over queried period of time.&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="2060" width="440" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Tlp35jNGQlbKkEbhyPow-97" value="REAL (Button)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tlp35jNGQlbKkEbhyPow-98" value="HISTORY (Button)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tlp35jNGQlbKkEbhyPow-99" value="FILTERS (Button)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1994FF;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1990" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
