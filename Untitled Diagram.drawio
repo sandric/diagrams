@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:129.0) Gecko/20100101 Firefox/129.0" version="24.7.7">
   <diagram name="Page-1" id="uHk-r6NhJKFIinwpcm94">
-    <mxGraphModel dx="2868" dy="1584" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1700" math="0" shadow="0">
+    <mxGraphModel dx="1793" dy="990" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1700" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -150,6 +150,27 @@
         </mxCell>
         <mxCell id="Tlp35jNGQlbKkEbhyPow-55" value="HORIZONTAL" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
           <mxGeometry x="920" y="440" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Tlp35jNGQlbKkEbhyPow-56" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="540" width="1080" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Tlp35jNGQlbKkEbhyPow-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="Tlp35jNGQlbKkEbhyPow-58" target="Tlp35jNGQlbKkEbhyPow-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tlp35jNGQlbKkEbhyPow-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="Tlp35jNGQlbKkEbhyPow-58" target="Tlp35jNGQlbKkEbhyPow-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tlp35jNGQlbKkEbhyPow-58" value="MAIN RPC SERVER&lt;br&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp; - setFrequency(freq, mod)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp; - ws socket every 0.5s tick&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp; to get groupped&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp; ClusteredDirections&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp; - ws socket every 20s tick&lt;div align=&quot;left&quot;&gt;&amp;nbsp; to get groupped&lt;/div&gt;&amp;nbsp; ClusteredDirections history&lt;br&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="560" width="210" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Tlp35jNGQlbKkEbhyPow-60" value="&lt;div&gt;rec_uniden directory&lt;/div&gt;&lt;div&gt;plastun reads in&lt;/div&gt;&lt;div&gt;Uniden mode&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tlp35jNGQlbKkEbhyPow-61" value="ClusteredDirections table in plastun db" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tlp35jNGQlbKkEbhyPow-62" value="PAVUCHOK" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="910" y="660" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
