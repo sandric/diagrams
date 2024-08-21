@@ -223,7 +223,7 @@
         <mxCell id="Tlp35jNGQlbKkEbhyPow-81" value="&lt;div&gt;HONCHAK&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
           <mxGeometry x="870" y="990" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Tlp35jNGQlbKkEbhyPow-82" value="Realtime" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="Tlp35jNGQlbKkEbhyPow-82" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="10" y="1160" width="1070" height="370" as="geometry" />
         </mxCell>
         <mxCell id="Tlp35jNGQlbKkEbhyPow-83" value="&lt;div&gt;Real time waterfall drawn with Pixi.js WebGL on a canvas, 800*800px, data taken from WS from &quot;Honchak&quot; Go web server, each tick is 100ms, grayscale 0-255 array of bytes.&lt;/div&gt;&lt;div&gt;Above spectral timeframe is drawn, and above it - realtime detection of frequency is shown as marker.&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -241,10 +241,10 @@
         <mxCell id="Tlp35jNGQlbKkEbhyPow-87" value="FILTERS (Button)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="1170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Tlp35jNGQlbKkEbhyPow-88" value="Realtime" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="Tlp35jNGQlbKkEbhyPow-88" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="10" y="1570" width="1070" height="370" as="geometry" />
         </mxCell>
-        <mxCell id="Tlp35jNGQlbKkEbhyPow-89" value="&lt;div&gt;History waterfall drawn with Leaflet as 1-dimensional zoom map with 0-10 zoom levels map, tile is 200*200px, jpeg pictures are taken from &quot;Honchak&quot; Go web server, each line in jpeg is same 0.1s, grayscale 0-255 jpeg compressed to 85% (set in Hopchak format settings, could be png, but much more bandwidth).&lt;/div&gt;&lt;div&gt;Above filtering section is drawn,you can select time period, frequency diapasone of detected signals, min-max time of detected signal, modulation, etc.&lt;/div&gt;&lt;div&gt;Above leaflet map detected signal overlay is drawn, its dynamic - on click info about signal, mod, id, tgid, cc and key if exist is shown, and a player button to play audio, its a section above this block and below filtering section. Also on click - pelengs history to the right is shown, each second of detected signal - shows peleng data.&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Tlp35jNGQlbKkEbhyPow-89" value="&lt;div&gt;History waterfall drawn with Leaflet as 1-dimensional zoom map with 0-10 zoom levels map, tile is 200*200px, jpeg pictures are taken from &quot;Honchak&quot; Go web server, each line in jpeg is same 0.1s, grayscale 0-255 jpeg compressed to 85% (set in Hopchak format settings, could be png, but much more bandwidth).&lt;/div&gt;&lt;div&gt;Above filtering section is drawn,you can select time period, frequency diapasone of detected signals, min-max time of detected signal, modulation, etc.&lt;/div&gt;&lt;div&gt;Above leaflet map detected signal overlay is drawn, its dynamic - on click info from &quot;Horizontal&quot; about signal, mod, id, tgid, cc and key if exist is shown, and a player button to play audio, its a section above this block and below filtering section. Also on click - pelengs history to the right is shown, each second of detected signal - shows peleng data.&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="1650" width="440" height="280" as="geometry" />
         </mxCell>
         <mxCell id="Tlp35jNGQlbKkEbhyPow-90" value="&lt;div&gt;History of pelengs, its a leaflet osm map with pelengs data taken from &quot;Pavuchok&quot;&lt;/div&gt;&lt;div&gt;data is an array of [{id, azimuth,power}] array taken each 0.5s, by moving current time in history waterfall - pelengs is redrawn, so you can see whole history of all pelengs plastun did over queried period of time.&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -259,13 +259,10 @@
         <mxCell id="Tlp35jNGQlbKkEbhyPow-93" value="FILTERS (Button)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="1580" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Tlp35jNGQlbKkEbhyPow-94" value="Realtime" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="Tlp35jNGQlbKkEbhyPow-94" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="10" y="1980" width="1070" height="370" as="geometry" />
         </mxCell>
-        <mxCell id="Tlp35jNGQlbKkEbhyPow-95" value="&lt;div&gt;History waterfall drawn with Leaflet as 1-dimensional zoom map with 0-10 zoom levels map, tile is 200*200px, jpeg pictures are taken from &quot;Honchak&quot; Go web server, each line in jpeg is same 0.1s, grayscale 0-255 jpeg compressed to 85% (set in Hopchak format settings, could be png, but much more bandwidth).&lt;/div&gt;&lt;div&gt;Above filtering section is drawn,you can select time period, frequency diapasone of detected signals, min-max time of detected signal, modulation, etc.&lt;/div&gt;&lt;div&gt;Above leaflet map detected signal overlay is drawn, its dynamic - on click info about signal, mod, id, tgid, cc and key if exist is shown, and a player button to play audio, its a section above this block and below filtering section. Also on click - pelengs history to the right is shown, each second of detected signal - shows peleng data.&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="2060" width="440" height="280" as="geometry" />
-        </mxCell>
-        <mxCell id="Tlp35jNGQlbKkEbhyPow-96" value="&lt;div&gt;History of pelengs, its a leaflet osm map with pelengs data taken from &quot;Pavuchok&quot;&lt;/div&gt;&lt;div&gt;data is an array of [{id, azimuth,power}] array taken each 0.5s, by moving current time in history waterfall - pelengs is redrawn, so you can see whole history of all pelengs plastun did over queried period of time.&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Tlp35jNGQlbKkEbhyPow-96" value="Filters section. You can set min/max power levels, diapasone of freqs, min duration of signal, min/max size of bandwidth, min/max size of bandwidth borders, jitter etc. You can have unlimited number of filters, they appear dynamically as you add/remove them. Each filter need to take &quot;Horizontal&quot; and &quot;Pavuchok&quot; ids to get both interception and peleng. As you add them - you can click &quot;test&quot; button - to enable it before committing, to the left you will see in real time if your filter got applied or not." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="2060" width="440" height="280" as="geometry" />
         </mxCell>
         <mxCell id="Tlp35jNGQlbKkEbhyPow-97" value="REAL (Button)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -276,6 +273,9 @@
         </mxCell>
         <mxCell id="Tlp35jNGQlbKkEbhyPow-99" value="FILTERS (Button)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1994FF;" vertex="1" parent="1">
           <mxGeometry x="310" y="1990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tlp35jNGQlbKkEbhyPow-100" value="&lt;div&gt;Real time waterfall drawn with Pixi.js WebGL on a canvas, 800*800px, data taken from WS from &quot;Honchak&quot; Go web server, each tick is 100ms, grayscale 0-255 array of bytes.&lt;/div&gt;&lt;div&gt;Above spectral timeframe is drawn, and above it - realtime detection of frequency is shown as marker.&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="2060" width="440" height="280" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
